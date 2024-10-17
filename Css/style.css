@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,li{
+  list-style: none;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  max-width: 1286px;
+  margin: auto;
+  height: 100px;
+}
+
+.btn-primary{
+  background-color: #b88e2f;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+}
+
+nav .row{
+  align-items: center;
+}
+
+nav .logo{
+  width: 25%;
+  padding: 0px 23px;
+}
+
+nav .menu{
+  width: 45%;
+  
+}
+
+nav .quickmenu{
+  width: 30%;
+  
+}
+
+nav .menu ul{
+  justify-content: center;
+}
+
+nav .menu ul li{
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  padding: 38px 35px;
+}
+
+nav .quickmenu ul li a{
+  padding: 36px 23px;
+  font-size: 22px;
+}
+
+nav .quickmenu ul{
+  justify-content: end;
+}
+
+#banner{
+  background-image: url(../image/pic.jpeg);
+  height: 716px;
+  background-position: left;
+  background-size: cover;
+  padding-top: 158px;
+  
+}
+
+.bannercnt{
+  width: 500px;
+  padding: 61px 35px 37px 39px;
+  background-color: #fff3e3;
+  margin-left: auto;
+  margin-right: 58px;
+  border-radius: 10px;
+}
+
+.bannercnt h4{
+
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.19em;
+  color: #333;
+}
+
+.bannercnt h1{
+  
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+  color:  #b88e2f;
+  margin: 4px 0 17px;
+}
+
+.bannercnt p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #333;
+  margin-bottom: 46px;
+}
+
+.bannercnt a{
+  padding: 25px 72px;
+  text-transform: uppercase;
+}
+
+#category {
+  text-align: center;
+  margin: 52px 0 56px;
+}
+
+#category h3{
+  
+  font-size: 32px;
+  color: #333;
+  font-weight: 700;
+}
+
+#category p{
+  
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 62px;
+}
+
+.catcard{
+  width: 33.33%;
+}
+
+.catcard a{
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  
+}
